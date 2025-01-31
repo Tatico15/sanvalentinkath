@@ -1,0 +1,53 @@
+CSS (en el archivo estilos.css):
+
+body {
+ background-color: #ffe6f2; /* color rosa suave */
+ font-family: Arial, sans-serif;
+}
+
+.contenedor {
+ width: 80%;
+ margin: 40px auto;
+ padding: 20px;
+ background-color: #ffffff;
+ border: 1px solid #dddddd;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+ color: #ff69b4; /* color rosa intenso */
+}
+
+.pregunta {
+ margin-top: 20px;
+}
+
+form {
+ margin-top: 10px;
+}
+
+input[type="radio"] {
+ margin-right: 10px;
+}
+
+label {
+ font-weight: bold;
+}
+
+button {
+ background-color: #ff69b4; /* color rosa intenso */
+ color: #ffffff;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+button:hover {
+ background-color: #ff99cc; /* color rosa claro */
+}
+
+#respuesta {
+ margin-top: 20px;
+ font-weight: bold;
+}
