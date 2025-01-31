@@ -1,0 +1,5 @@
+document.getElementById("enviar").addEventListener("click", function() {
+ var opcion = document.querySelector('input[name="opcion"]:checked').value;
+ document.getElementById("respuesta").innerHTML = "Gracias por ser tan honesta y por compartir tus sentimientos conmigo. Te quiero más que nunca, mi corazón late por ti.";
+});
+
