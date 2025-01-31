@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Mi corazón late por ti</title>
+ <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+ <div class="contenedor">
+ <h1>Mi corazón late por ti</h1>
+ <p>Eres la luz de mi vida, mi razón de ser. Te quiero más que ayer, pero menos que mañana. Feliz San Valentín, mi amor.</p>
+ <div class="pregunta">
+ <p>¿Qué es lo que más te gusta de nuestra relación?</p>
+ <form>
+ <input type="radio" id="opcion1" name="opcion" value="La forma en que me haces reír">
+ <label for="opcion1">La forma en que me haces reír</label>
+ <br>
+ <input type="radio" id="opcion2" name="opcion" value="La manera en que me apoyas y me entiendes">
+ <label for="opcion2">La manera en que me apoyas y me entiendes</label>
+ <br>
+ <input type="radio" id="opcion3" name="opcion" value="La pasión y el amor que compartimos">
+ <label for="opcion3">La pasión y el amor que compartimos</label>
+ <br>
+ <input type="radio" id="opcion4" name="opcion" value="Otra cosa (por favor, dime)">
+ <label for="opcion4">Otra cosa (por favor, dime)</label>
+ <br>
+ <button id="enviar">Enviar</button>
+ </form>
+ </div>
+ <div id="respuesta"></div>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
